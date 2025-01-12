@@ -1,19 +1,24 @@
-.navbarContainer {
-  /* position */
-  position: sticky;
+.navbar {
+  font-weight: 400;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  z-index: 1000;
-}
-.navbar {
-  /* background-color: yellow; */
+  background: 0 0;
+
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-transform: uppercase;
+  transition: background-color 1s ease;
+  z-index: 1000;
+}
 
-  background-color: black;
+.navbar.scrolled {
+  position: sticky;
+  background-color: black; /* Black background when scrolled */
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Optional shadow effect */
 }
 
 .logo {
@@ -54,6 +59,7 @@
 
 @media (max-width: 768px) {
   .navbar {
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;

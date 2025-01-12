@@ -1,15 +1,12 @@
 .intro {
-  height: 90vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  overflow: hidden;
-  text-align: left;
-
   background-image: url("/public/background.jpg");
+  background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeats;
+  padding-top: 5rem;
+  z-index: 1;
   position: relative;
+  width: 100%;
 }
 
 .intro::before {
@@ -20,35 +17,39 @@
   top: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
-  z-index: 0;
+  z-index: -1;
 }
 
-.intro div {
-  z-index: 1;
-  position: relative;
-}
-
-.intro h1 {
+.overlay h1 {
   color: orange;
   font-size: 6rem;
 }
 
-.intro h3 {
+.overlay h3 {
   font-size: 3rem;
 }
 
-.intro p {
+.overlay p {
   font-size: 1.5rem;
 }
 
-.intro div:first-child {
-  text-align: center;
+.overlay {
+  height: 100vh;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: column;
-  align-items: flex-start;
 }
 
-@media (max-width: 768px) {
+.overlay div:first-child {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .overlay {
+    height: 110vh;
+  }
+
   .intro h1 {
     font-size: 2rem;
   }
