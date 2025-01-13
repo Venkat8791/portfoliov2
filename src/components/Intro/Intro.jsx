@@ -11,8 +11,11 @@ function Intro() {
           <p>1 in millions of Software Engineers around the Globe 🌏</p>
         </div>
         <div>
-          <a href="/">
-            <KeyboardDoubleArrowDownIcon fontSize="large" />
+          <a href="#aboutMe">
+            <KeyboardDoubleArrowDownIcon
+              fontSize="large"
+              sx={{ color: "white", cursor: "pointer" }}
+            />
           </a>
         </div>
       </div>

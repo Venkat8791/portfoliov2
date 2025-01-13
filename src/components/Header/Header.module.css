@@ -4,8 +4,8 @@
   top: 0;
   left: 0;
   background: 0 0;
-
-  width: 100%;
+  color: white;
+  width: 100dvw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,20 +33,22 @@
 
 .logoimg {
   width: 6rem;
-  height: 5rem;
-  display: inline;
+  height: 4rem;
+  /* display: inline; */
 }
 
 .navlist {
-  /* background-color: aqua; */
   display: flex;
   list-style-type: none;
 }
 
 .navlist li {
-  /* background-color: blue; */
   padding: 1rem;
   cursor: pointer;
+}
+
+.navlist li:hover {
+  color: orange;
 }
 
 .burger {
@@ -67,7 +69,6 @@
 
   .burger {
     display: block;
-    width: 4rem;
     justify-self: end;
   }
 
@@ -90,8 +91,21 @@
 
   .navlist.active {
     display: flex;
-
-    /* navigation */
     max-height: 100vh;
+  }
+}
+
+@media (max-width: 300px) {
+  .burger {
+    display: inline;
+
+    padding: 0;
+  }
+  img {
+    display: none;
+  }
+
+  .logoname {
+    padding: 0;
   }
 }

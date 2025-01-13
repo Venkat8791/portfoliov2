@@ -1,4 +1,5 @@
 .intro {
+  color: white;
   background-image: url("/public/background.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -22,15 +23,6 @@
 
 .overlay h1 {
   color: orange;
-  font-size: 6rem;
-}
-
-.overlay h3 {
-  font-size: 3rem;
-}
-
-.overlay p {
-  font-size: 1.5rem;
 }
 
 .overlay {
@@ -48,13 +40,5 @@
 @media (max-width: 480px) {
   .overlay {
     height: 110vh;
-  }
-
-  .intro h1 {
-    font-size: 2rem;
-  }
-
-  .intro h3 {
-    font-size: 1rem;
   }
 }
