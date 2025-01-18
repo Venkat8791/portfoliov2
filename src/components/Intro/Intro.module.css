@@ -23,6 +23,7 @@
 
 .overlay h1 {
   color: orange;
+  font-size: 4rem;
 }
 
 .overlay {
@@ -40,5 +41,9 @@
 @media (max-width: 480px) {
   .overlay {
     height: 110vh;
+  }
+
+  .overlay h1 {
+    font-size: 2rem;
   }
 }

@@ -6,7 +6,7 @@ function Intro() {
     <section className={styles.intro}>
       <div className={styles.overlay}>
         <div>
-          <h3>Hello, there!</h3>
+          <h2>Hello, there!</h2>
           <h1>I'm Venkat</h1>
           <p>1 in millions of Software Engineers around the Globe 🌏</p>
         </div>

@@ -12,6 +12,7 @@
   text-transform: uppercase;
   transition: background-color 1s ease;
   z-index: 1000;
+  padding: 0.25rem;
 }
 
 .navbar.scrolled {
@@ -95,14 +96,16 @@
   }
 }
 
+@media (max-width: 480px) {
+  .logoimg {
+    display: none;
+  }
+}
+
 @media (max-width: 300px) {
   .burger {
     display: inline;
-
     padding: 0;
-  }
-  img {
-    display: none;
   }
 
   .logoname {

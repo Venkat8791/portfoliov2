@@ -11,7 +11,7 @@ function About() {
         <h2>A little bit about me</h2>
         <img src="photo.jpeg" alt="profilepic" />
         <p>
-          Helle, there! My name is Venkat and I'm a passionate full stack web
+          Hello, there👋! My name is Venkat and I'm a passionate full stack web
           developer with a passion for front end development and back end
           devlopment. I'm currently working as Systems Engineer in TCS. I hold a
           bachelors degree in Computer Science. I aspire toward a career that

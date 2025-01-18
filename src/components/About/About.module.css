@@ -1,5 +1,8 @@
-.overlay {
+.about {
   margin: 4rem;
+}
+
+.overlay {
   color: black;
   display: flex;
   flex-direction: column;
@@ -56,7 +59,7 @@ span svg {
 }
 
 @media (max-width: 768px) {
-  .overlay {
+  .about {
     margin: 2rem;
   }
   .overlay p {
@@ -65,7 +68,7 @@ span svg {
 }
 
 @media (max-width: 480px) {
-  .overlay {
+  .about {
     margin: 0.5rem;
   }
   .overlay p {
