@@ -35,11 +35,21 @@ function Header() {
         <MenuIcon />
       </button>
       <ul className={`${styles.navlist} ${isOpen ? styles.active : ""}`}>
-        <li>About</li>
-        <li>Passion</li>
-        <li>Experience</li>
-        <li>Resume</li>
-        <li>Contact</li>
+        <li>
+          <a href="#aboutMe">About</a>
+        </li>
+        <li>
+          <a href="#aboutMe">Passion</a>
+        </li>
+        <li>
+          <a href="#aboutMe">Experience</a>
+        </li>
+        <li>
+          <a href="#aboutMe">Resume</a>
+        </li>
+        <li>
+          <a href="#aboutMe">Contact</a>
+        </li>
       </ul>
     </header>
   );

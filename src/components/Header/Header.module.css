@@ -52,6 +52,11 @@
   color: orange;
 }
 
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .burger {
   display: none;
   padding: 1rem;
