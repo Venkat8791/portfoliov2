@@ -1,0 +1,51 @@
+.experience {
+  margin: 4rem;
+}
+
+.experienceContent {
+  margin: 1rem;
+}
+
+.overlay h2,
+p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.overlay h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.experienceContent h3 {
+  margin-top: 8dvh;
+  margin-left: 4dvw;
+}
+
+.techGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .techGrid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .experience {
+    margin: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .techGrid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+
+  .experience {
+    margin: 0.5rem;
+  }
+}

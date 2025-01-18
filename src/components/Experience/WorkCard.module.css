@@ -1,0 +1,107 @@
+.workCard {
+  display: flex;
+  background-color: #e6e6e6;
+  border: 1px solid e6e6e6;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem;
+}
+.workCard img {
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+.workCard ul {
+  list-style-type: none;
+}
+
+.workCard li::before {
+  content: "➤ "; /* Unicode for arrow */
+  margin-right: 0.5rem;
+  left: 0; /* Position the arrow */
+  color: #333; /* Arrow color */
+  font-size: 1em; /* Adjust size as needed */
+}
+
+.companyImage {
+  width: 25%;
+}
+
+.companyContent {
+  width: 75%;
+}
+
+.companyContent h3 {
+  margin: 0;
+}
+
+.companyContent p {
+  margin-top: 0.5rem;
+  text-align: left;
+}
+
+.companyDesignation {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.techTag {
+  display: inline-block;
+  background-color: #e0e0e0; /* Light background color */
+  color: #333; /* Dark text for contrast */
+  padding: 6px 12px; /* Padding around the text */
+  margin: 5px 8px; /* Space between tags */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 0.9em;
+  font-weight: 500; /* Semi-bold for emphasis */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  transition: background-color 0.3s, transform 0.3s ease; /* Smooth hover effects */
+}
+
+.techTag:hover {
+  cursor: pointer;
+  background-color: #007bff; /* Change to a blue background on hover */
+  color: white; /* White text on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+@media (max-width: 1000px) {
+  .workCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .workCard img {
+    width: 100%;
+  }
+
+  .companyImage {
+    width: 100%;
+  }
+
+  .companyContent {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .workCard {
+    margin: 1rem;
+  }
+  .companyDesignation {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  .companyDesignation p {
+    margin: 0;
+  }
+
+  .techTag {
+    padding: 3px 6px;
+  }
+}

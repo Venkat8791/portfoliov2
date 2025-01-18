@@ -1,0 +1,63 @@
+.gridItem {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.gridItem img {
+  width: 100px;
+  height: 100px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.gridItem span {
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Neutral text color */
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif; /* Clean font */
+  padding: 4px 8px; /* Adds some breathing room */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  margin: 5px; /* Spacing between spans */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.2s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.gridItem:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.gridItem:hover span {
+  background-color: orange; /* Slightly darker background on hover */
+  transform: translateY(-2px); /* Subtle lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .gridItem img {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gridItem img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 300px) {
+  .gridItem img {
+    height: 30px;
+    width: 30px;
+  }
+}
