@@ -1,0 +1,30 @@
+.contact {
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: #333333;
+  color: white;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.contact img {
+  filter: grayscale(100%);
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+  border: 1px solid black;
+  background-color: #e6e6e6;
+}
+
+.contact img:hover {
+  filter: grayscale(0%);
+}

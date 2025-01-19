@@ -26,7 +26,10 @@ function Header() {
   };
 
   return (
-    <header className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
+    <header
+      className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}
+      id="header"
+    >
       <div className={styles.logo}>
         <img src="logo.jpg" className={styles.logoimg} alt="logo" />
         <span className={styles.logoname}>Venkat Gadiyakari</span>
@@ -48,7 +51,7 @@ function Header() {
           <a href="#resume">Resume</a>
         </li>
         <li>
-          <a href="#aboutMe">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </header>

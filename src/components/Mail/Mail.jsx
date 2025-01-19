@@ -11,7 +11,7 @@ function Mail() {
         to shoot me an email!
       </p>
       <button>
-        <a href="/">Say Hello</a>
+        <a href="mailto:gadiyakarivenkat@gmail.com?">Say Hello</a>
       </button>
     </section>
   );

@@ -3,7 +3,7 @@ import styles from "./Intro.module.css";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 function Intro() {
   return (
-    <section className={styles.intro}>
+    <section className={styles.intro} id="intro">
       <div className={styles.overlay}>
         <div>
           <h2>Hello, there!</h2>

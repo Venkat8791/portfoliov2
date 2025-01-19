@@ -26,9 +26,6 @@ h3 {
   font-size: 1rem;
   font-weight: 400;
 }
-span {
-  font-size: 0.75rem;
-}
 
 @media (max-width: 768px) {
   h1 {
@@ -39,6 +36,9 @@ span {
   }
   h3 {
     font-size: 1rem;
+  }
+  span {
+    font-size: 0.75rem;
   }
 }
 
