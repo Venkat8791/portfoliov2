@@ -1,0 +1,46 @@
+.resume {
+  text-align: center;
+  padding: 2rem;
+  background-color: aqua;
+  color: white;
+  position: relative;
+  z-index: 100;
+  background-image: url("/public/resume.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resume::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.resume h2 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.resume button {
+  padding: 1rem 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  transition: all 0.5s ease;
+}
+
+.resume button:hover {
+  cursor: pointer;
+  padding: 1rem 2rem;
+}

@@ -78,7 +78,7 @@ function Experience() {
     },
   ];
   return (
-    <section className={styles.experience}>
+    <section className={styles.experience} id="experience">
       <div className={styles.overlay}>
         <h2>Experience</h2>
         <p>

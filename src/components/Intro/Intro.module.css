@@ -3,7 +3,7 @@
   background-image: url("/public/background.jpg");
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeats;
+  background-repeat: no-repeat;
   padding-top: 5rem;
   z-index: 1;
   position: relative;

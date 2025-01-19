@@ -39,13 +39,13 @@ function Header() {
           <a href="#aboutMe">About</a>
         </li>
         <li>
-          <a href="#aboutMe">Passion</a>
+          <a href="#passion">Passion</a>
         </li>
         <li>
-          <a href="#aboutMe">Experience</a>
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#aboutMe">Resume</a>
+          <a href="#resume">Resume</a>
         </li>
         <li>
           <a href="#aboutMe">Contact</a>

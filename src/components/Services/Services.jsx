@@ -6,7 +6,7 @@ import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
 
 function Services() {
   return (
-    <section className={styles.services}>
+    <section className={styles.services} id="passion">
       <div className={styles.overlay}>
         <h2>What I do</h2>
         <div className={styles.serviceSection}>
