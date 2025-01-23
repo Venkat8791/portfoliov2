@@ -39,9 +39,9 @@
 }
 
 @media (max-width: 480px) {
-  .overlay {
-    height: 110vh;
-  }
+  /* .overlay {
+    height: 100vh;
+  } */
 
   .overlay h1 {
     font-size: 2rem;

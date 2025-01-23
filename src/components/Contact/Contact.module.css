@@ -11,6 +11,10 @@
   color: white;
 }
 
+.contact p {
+  margin: 0;
+}
+
 .socialIcons {
   display: flex;
   gap: 0.25rem;

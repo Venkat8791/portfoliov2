@@ -5,7 +5,10 @@ function WorkCard() {
   return (
     <div className={styles.workCard}>
       <div className={styles.companyImage}>
-        <img src="companyIcons/TCS.svg" alt="tcs" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg"
+          alt="tcs"
+        />
       </div>
       <div className={styles.companyContent}>
         <h3> Tata consultancy Sevices</h3>

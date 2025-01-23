@@ -22,6 +22,7 @@ function Contact() {
         <RocketIcon sx={{ fontSize: 50, color: "white" }} />
       </a>
       <p>&copy; Venkat Gadiyakari 2025</p>
+      <p>Made with React, Deployed in vercel</p>
     </section>
   );
 }

@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 480px) {
+  .servies {
+    margin: 2rem auto;
+  }
   .serviceSection {
     margin: 0;
   }
